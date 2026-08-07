@@ -131,9 +131,7 @@ Website
 
 https://aqbay.com
 
-Original Games
-
-https://aqbay.com/original-games
+[Original Games](https://aqbay.com/original-games)
 
 Insights
 
