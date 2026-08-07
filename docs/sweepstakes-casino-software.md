@@ -161,9 +161,7 @@ Website
 
 https://aqbay.com
 
-Sweepstakes Casino Software
-
-https://aqbay.com/sweepstakes-casino-software
+[Sweepstakes Casino Software](https://aqbay.com/sweepstakes-casino-software)
 
 Insights
 
