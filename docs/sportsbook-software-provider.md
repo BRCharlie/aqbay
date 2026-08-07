@@ -133,9 +133,7 @@ Official Website
 
 https://aqbay.com
 
-Sportsbook Software
-
-https://aqbay.com/sportsbook-software-provider
+[Sportsbook Software](https://aqbay.com/sportsbook-software-provider)
 
 Insights
 
