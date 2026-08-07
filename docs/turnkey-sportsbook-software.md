@@ -121,9 +121,7 @@ Website
 
 https://aqbay.com
 
-Turnkey Sportsbook Software
-
-https://aqbay.com/turnkey-sportsbook-software
+[Turnkey Sportsbook Software](https://aqbay.com/turnkey-sportsbook-software)
 
 Insights
 
