@@ -1,9 +1,902 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Aqbay</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aqbay Documentation | iGaming & Casino Software</title>
+
+  <meta
+    name="description"
+    content="Aqbay documentation for casino software, sportsbook platforms, casino APIs, original games, CRM, affiliate solutions, and iGaming technology."
+  >
+
+  <meta name="robots" content="index, follow">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #172033;
+      background: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
+    }
+
+    /* Header */
+
+    header {
+      border-bottom: 1px solid #e8ebf0;
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #111827;
+    }
+
+    .logo span {
+      color: #2563eb;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    nav a {
+      font-size: 15px;
+      font-weight: 600;
+      color: #4b5563;
+      transition: 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    .nav-btn {
+      padding: 10px 18px;
+      border-radius: 7px;
+      background: #2563eb;
+      color: #ffffff !important;
+    }
+
+    .nav-btn:hover {
+      background: #1d4ed8;
+    }
+
+    /* Hero */
+
+    .hero {
+      padding: 95px 0 90px;
+      background:
+        linear-gradient(135deg, #f8fbff 0%, #eef5ff 100%);
+      border-bottom: 1px solid #e8edf5;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 7px 13px;
+      border-radius: 30px;
+      background: #e5efff;
+      color: #1d4ed8;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 6vw, 68px);
+      line-height: 1.08;
+      letter-spacing: -2px;
+      color: #111827;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      max-width: 760px;
+      font-size: 19px;
+      color: #5b6473;
+      margin-bottom: 32px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 7px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-secondary {
+      background: #ffffff;
+      color: #1f2937;
+      border: 1px solid #d8dee8;
+    }
+
+    .btn-secondary:hover {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+
+    /* Sections */
+
+    section {
+      padding: 78px 0;
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin-bottom: 40px;
+    }
+
+    .section-heading h2 {
+      font-size: 36px;
+      line-height: 1.2;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .section-heading p {
+      color: #667085;
+      font-size: 17px;
+    }
+
+    /* Cards */
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      padding: 28px;
+      border: 1px solid #e3e7ee;
+      border-radius: 12px;
+      background: #ffffff;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: #b9cdf8;
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(25, 55, 100, 0.08);
+    }
+
+    .card-icon {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9px;
+      background: #edf4ff;
+      color: #2563eb;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #111827;
+    }
+
+    .card p {
+      color: #687386;
+      font-size: 15px;
+      margin-bottom: 18px;
+    }
+
+    .card-link {
+      color: #2563eb;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    /* Insights */
+
+    .insights {
+      background: #f8fafc;
+      border-top: 1px solid #edf0f4;
+      border-bottom: 1px solid #edf0f4;
+    }
+
+    .insight-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .insight {
+      padding: 20px 22px;
+      background: #ffffff;
+      border: 1px solid #e3e7ee;
+      border-radius: 9px;
+      color: #263247;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .insight:hover {
+      color: #2563eb;
+      border-color: #b9cdf8;
+    }
+
+    /* CTA */
+
+    .cta {
+      padding: 70px 0;
+    }
+
+    .cta-box {
+      padding: 55px;
+      border-radius: 14px;
+      background: #111827;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .cta-box h2 {
+      font-size: 36px;
+      margin-bottom: 14px;
+    }
+
+    .cta-box p {
+      max-width: 650px;
+      margin: 0 auto 26px;
+      color: #cbd5e1;
+    }
+
+    .cta-box .btn-primary {
+      background: #ffffff;
+      color: #111827;
+    }
+
+    .cta-box .btn-primary:hover {
+      background: #e5e7eb;
+    }
+
+    /* Footer */
+
+    footer {
+      background: #0b1120;
+      color: #aeb8c8;
+      padding: 45px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 35px;
+      padding-bottom: 35px;
+    }
+
+    .footer-brand h3 {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      max-width: 390px;
+      font-size: 14px;
+    }
+
+    footer h4 {
+      color: #ffffff;
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+
+    footer ul {
+      list-style: none;
+    }
+
+    footer li {
+      margin-bottom: 9px;
+    }
+
+    footer li a {
+      font-size: 14px;
+      color: #aeb8c8;
+    }
+
+    footer li a:hover {
+      color: #ffffff;
+    }
+
+    .copyright {
+      border-top: 1px solid #1d2738;
+      padding-top: 22px;
+      text-align: center;
+      font-size: 13px;
+      color: #7f8ba0;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 900px) {
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      nav {
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .nav {
+        min-height: 65px;
+      }
+
+      nav a:not(.nav-btn) {
+        display: none;
+      }
+
+      .hero {
+        padding: 65px 0;
+      }
+
+      section {
+        padding: 55px 0;
+      }
+
+      .cards,
+      .insight-list,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-box {
+        padding: 38px 22px;
+      }
+
+      .cta-box h2 {
+        font-size: 29px;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Aqbay GitHub Pages is Working!</h1>
+
+  <!-- Header -->
+
+  <header>
+    <div class="container nav">
+
+      <a href="/" class="logo">
+        AQ<span>Bay</span>
+      </a>
+
+      <nav>
+        <a href="#documentation">Documentation</a>
+        <a href="#insights">Insights</a>
+        <a href="https://aqbay.com/">Aqbay.com</a>
+        <a
+          href="https://aqbay.com/contact-us"
+          class="nav-btn"
+        >
+          Contact Us
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- Hero -->
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            Aqbay Documentation
+          </span>
+
+          <h1>
+            iGaming Technology &amp;
+            Casino Software Documentation
+          </h1>
+
+          <p>
+            Explore Aqbay's documentation covering casino software,
+            sportsbook platforms, casino APIs, original games, CRM,
+            affiliate solutions, sweepstakes technology, and
+            iGaming platform infrastructure.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="btn btn-primary"
+            >
+              Browse Documentation
+            </a>
+
+            <a
+              href="#insights"
+              class="btn btn-secondary"
+            >
+              Explore Insights
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Documentation -->
+
+    <section id="documentation">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <h2>
+            Documentation
+          </h2>
+
+          <p>
+            Technical and product documentation for operators,
+            startups, developers, and businesses building
+            iGaming platforms.
+          </p>
+
+        </div>
+
+
+        <div class="cards">
+
+          <div class="card">
+
+            <div class="card-icon">
+              API
+            </div>
+
+            <h3>
+              Casino API
+            </h3>
+
+            <p>
+              Learn about casino APIs, game integrations,
+              platform connectivity, and casino technology.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/blob/main/docs/casino-api-provider.md"
+              class="card-link"
+            >
+              View Documentation →
+            </a>
+
+          </div>
+
+
+          <div class="card">
+
+            <div class="card-icon">
+              C
+            </div>
+
+            <h3>
+              Casino Software
+            </h3>
+
+            <p>
+              Explore turnkey casino, white-label casino,
+              casino game development, and gaming platform solutions.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="card-link"
+            >
+              Explore Casino Docs →
+            </a>
+
+          </div>
+
+
+          <div class="card">
+
+            <div class="card-icon">
+              S
+            </div>
+
+            <h3>
+              Sportsbook Software
+            </h3>
+
+            <p>
+              Documentation covering sportsbook platforms,
+              betting technology, odds, risk management, and APIs.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="card-link"
+            >
+              Explore Sportsbook Docs →
+            </a>
+
+          </div>
+
+
+          <div class="card">
+
+            <div class="card-icon">
+              G
+            </div>
+
+            <h3>
+              Original Games
+            </h3>
+
+            <p>
+              Discover documentation related to original casino
+              games, game development, and gaming experiences.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="card-link"
+            >
+              Explore Game Docs →
+            </a>
+
+          </div>
+
+
+          <div class="card">
+
+            <div class="card-icon">
+              CRM
+            </div>
+
+            <h3>
+              iGaming CRM
+            </h3>
+
+            <p>
+              Learn about casino CRM, player management,
+              engagement, retention, and operational workflows.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="card-link"
+            >
+              Explore CRM Docs →
+            </a>
+
+          </div>
+
+
+          <div class="card">
+
+            <div class="card-icon">
+              A
+            </div>
+
+            <h3>
+              Affiliate Solutions
+            </h3>
+
+            <p>
+              Explore affiliate technology, tracking,
+              management, commissions, and iGaming acquisition.
+            </p>
+
+            <a
+              href="https://github.com/stepanmarko/aqbay/tree/main/docs"
+              class="card-link"
+            >
+              Explore Affiliate Docs →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Insights -->
+
+    <section id="insights" class="insights">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <h2>
+            iGaming Insights
+          </h2>
+
+          <p>
+            Practical guides and educational resources covering
+            iGaming technology, casino operations, APIs, games,
+            platforms, CRM, and affiliate marketing.
+          </p>
+
+        </div>
+
+
+        <div class="insight-list">
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/blob/main/blog/crash-game-api-provider-comparison.md"
+          >
+            Crash Game API Provider Comparison →
+          </a>
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/blob/main/blog/best-igaming-platforms-for-casino-operators-startups.md"
+          >
+            Best iGaming Platforms for Casino Operators &amp; Startups →
+          </a>
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/blob/main/blog/what-are-original-casino-games-operator-guide.md"
+          >
+            What Are Original Casino Games? →
+          </a>
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/blob/main/blog/igaming-api-integration-explained.md"
+          >
+            iGaming API Integration Explained →
+          </a>
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/blob/main/blog/casino-tech-stack-explained-igaming-operators.md"
+          >
+            Casino Tech Stack Explained →
+          </a>
+
+          <a
+            class="insight"
+            href="https://github.com/stepanmarko/aqbay/tree/main/blog"
+          >
+            View All Insights →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+      <div class="container">
+
+        <div class="cta-box">
+
+          <h2>
+            Need iGaming Technology?
+          </h2>
+
+          <p>
+            Connect with Aqbay to discuss casino software,
+            sportsbook platforms, APIs, original games,
+            CRM, affiliate solutions, and custom iGaming technology.
+          </p>
+
+          <a
+            href="https://aqbay.com/contact-us"
+            class="btn btn-primary"
+          >
+            Contact Aqbay
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <h3>Aqbay</h3>
+
+          <p>
+            iGaming technology and software documentation
+            covering casino, sportsbook, APIs, games,
+            CRM, affiliate solutions, and gaming platforms.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h4>Documentation</h4>
+
+          <ul>
+
+            <li>
+              <a href="https://github.com/stepanmarko/aqbay/tree/main/docs">
+                Casino Software
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/stepanmarko/aqbay/tree/main/docs">
+                Sportsbook Software
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/stepanmarko/aqbay/tree/main/docs">
+                Casino API
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div>
+
+          <h4>Insights</h4>
+
+          <ul>
+
+            <li>
+              <a href="#insights">
+                iGaming Insights
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/stepanmarko/aqbay/tree/main/blog">
+                All Insights
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div>
+
+          <h4>Official Resources</h4>
+
+          <ul>
+
+            <li>
+              <a href="https://aqbay.com/">
+                Aqbay Website
+              </a>
+            </li>
+
+            <li>
+              <a href="https://aqbay.com/contact-us">
+                Contact Aqbay
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/stepanmarko/aqbay">
+                GitHub Repository
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div class="copyright">
+        © 2026 Aqbay. All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>
