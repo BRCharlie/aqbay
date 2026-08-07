@@ -161,9 +161,7 @@ Website
 
 https://aqbay.com
 
-White Label Casino Solution
-
-https://aqbay.com/white-label-casino-solution
+[White Label Casino Solution](https://aqbay.com/white-label-casino-solution)
 
 Insights
 
