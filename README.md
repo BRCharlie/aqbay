@@ -179,17 +179,11 @@ https://aqbay.com/insights
 
 # Contact
 
-Website
+[Website](https://aqbay.com)
 
-https://aqbay.com
+[Contact](https://aqbay.com/contact-us)
 
-Contact
-
-https://aqbay.com/contact-us
-
-Terms & Conditions
-
-https://aqbay.com/terms-and-conditions
+[Terms & Conditions](https://aqbay.com/terms-and-conditions)
 
 ---
 
