@@ -141,9 +141,7 @@ Website
 
 https://aqbay.com
 
-White Label Sportsbook Solution
-
-https://aqbay.com/white-label-sportsbook-solution
+[White Label Sportsbook Solution](https://aqbay.com/white-label-sportsbook-solution)
 
 Insights
 
