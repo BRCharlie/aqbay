@@ -157,9 +157,7 @@ Website
 
 https://aqbay.com
 
-Turnkey Casino Solution
-
-https://aqbay.com/turnkey-casino-solution
+[Turnkey Casino Solution](https://aqbay.com/turnkey-casino-solution)
 
 Insights
 
