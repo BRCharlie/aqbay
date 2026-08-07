@@ -155,9 +155,7 @@ Website
 
 https://aqbay.com
 
-Affiliate Solution
-
-https://aqbay.com/affiliate-solution
+[Affiliate Solution](https://aqbay.com/affiliate-solution)
 
 Insights
 
