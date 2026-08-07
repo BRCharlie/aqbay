@@ -96,21 +96,19 @@ Aqbay offers complete iGaming software development services including:
 - [Affiliate Solution](docs/affiliate-solution.md)
 
 | Product | Documentation |
-|---------|---------------|
-| Casino API Provider | https://aqbay.com/casino-api-provider |
-| Turnkey Casino Solution | https://aqbay.com/turnkey-casino-solution |
-| White Label Casino Solution | https://aqbay.com/white-label-casino-solution |
-| Sportsbook Software Provider | https://aqbay.com/sportsbook-software-provider |
-| Turnkey Sportsbook Software | https://aqbay.com/turnkey-sportsbook-software |
-| White Label Sportsbook Solution | https://aqbay.com/white-label-sportsbook-solution |
-| Sports Betting Software Provider | https://aqbay.com/sports-betting-software-provider |
-| Casino Game Development Company | https://aqbay.com/casino-game-development-company |
-| Sweepstakes Casino Software | https://aqbay.com/sweepstakes-casino-software |
-| Original Games | https://aqbay.com/original-games |
-| iGaming CRM | https://aqbay.com/igaming-crm |
-| Affiliate Solution | https://aqbay.com/affiliate-solution |
-| Legal & Compliance | https://aqbay.com/legal-compliance |
-
+| --- | --- |
+| Casino API Provider | [Casino API Provider](docs/casino-api-provider.md) |
+| Turnkey Casino Solution | [Turnkey Casino Solution](docs/turnkey-casino-solution.md) |
+| White Label Casino Solution | [White Label Casino Solution](docs/white-label-casino-solution.md) |
+| Sportsbook Software Provider | [Sportsbook Software Provider](docs/sportsbook-software-provider.md) |
+| Turnkey Sportsbook Software | [Turnkey Sportsbook Software](docs/turnkey-sportsbook-software.md) |
+| White Label Sportsbook Solution | [White Label Sportsbook Solution](docs/white-label-sportsbook-solution.md) |
+| Sports Betting Software Provider | [Sports Betting Software Provider](docs/sports-betting-software-provider.md) |
+| Casino Game Development Company | [Casino Game Development Company](docs/casino-game-development-company.md) |
+| Sweepstakes Casino Software | [Sweepstakes Casino Software](docs/sweepstakes-casino-software.md) |
+| Original Games | [Original Games](docs/original-games.md) |
+| iGaming CRM | [iGaming CRM](docs/igaming-crm.md) |
+| Affiliate Solution | [Affiliate Solution](docs/affiliate-solution.md) |
 ---
 
 # Industries We Serve
