@@ -170,9 +170,7 @@ Website
 
 https://aqbay.com
 
-iGaming CRM
-
-https://aqbay.com/igaming-crm
+[iGaming CRM](https://aqbay.com/igaming-crm)
 
 Insights
 
