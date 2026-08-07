@@ -120,9 +120,7 @@ Website
 
 https://aqbay.com
 
-Casino API
-
-https://aqbay.com/casino-api-provider
+[Casino API](https://aqbay.com/casino-api-provider)
 
 Insights
 
