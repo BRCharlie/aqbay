@@ -147,9 +147,7 @@ Website
 
 https://aqbay.com
 
-Casino Game Development Company
-
-https://aqbay.com/casino-game-development-company
+[Casino Game Development Company](https://aqbay.com/casino-game-development-company)
 
 Insights
 
